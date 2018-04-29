@@ -1,7 +1,4 @@
-#!/usr/bin/python
-
 import pandas as pd
-
 
 def get_dv(start = 20170101,end = 20180101): 
 	import jaqs_fxdayu
