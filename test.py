@@ -58,7 +58,7 @@ def test(factor,data):
 			raise TypeError('error index type')
 		print ('{} OK!'.format(factor))
 
-from template import Variance20, AR, DBCD, Alpha120, Alpha121, Alpha73
+from template import Variance20, AR, DBCD, Alpha116, Alpha120, Alpha121, Alpha73, Alpha30
 
-for f in ['Variance20', 'AR', 'DBCD', 'Alpha120', 'Alpha121', 'Alpha73']:
+for f in ['Variance20', 'AR', 'DBCD', 'Alpha120', 'Alpha121', 'Alpha73','Alpha116','Alpha30']:
 	test(f, globals()[f].run_formula(dv))
